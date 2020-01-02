@@ -1,0 +1,5 @@
+rootProject.name = 'mfw-model'
+include 'dao'
+include 'server'
+include 'ui'
+
