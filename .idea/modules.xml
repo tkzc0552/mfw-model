@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dao/dao.iml" filepath="$PROJECT_DIR$/.idea/modules/dao/dao.iml" group="dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" group="dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" group="dao" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-model.iml" filepath="$PROJECT_DIR$/mfw-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui/ui.iml" filepath="$PROJECT_DIR$/.idea/modules/ui/ui.iml" group="ui" />
+    </modules>
+  </component>
+</project>
