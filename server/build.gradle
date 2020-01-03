@@ -32,6 +32,9 @@ project(':server'){
         //httpClient
         compile("com.squareup.okhttp3:okhttp:$okhttp_version")
         compile("org.apache.httpcomponents:httpclient:$httpclient_version")
+        //使用velocity来生成模板代码
+        compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
+        compile group: 'commons-configuration', name: 'commons-configuration', version: '1.10'
 
     }
 

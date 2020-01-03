@@ -1,0 +1,68 @@
+{
+    "code": "00000",
+    "message": "menuInfo",
+    "data": [
+        {
+            "parentMenuCode": null,
+            "menuCode": "001001",
+            "menuEname": "model",
+            "menuCname": "模型系统",
+            "leafFlag": 0,
+            "menuLink": "http://www.zhm.com:8094/#/home",
+            "menuLevel": 1,
+            "children": [
+                {
+                    "parentMenuCode": null,
+                    "menuCode": "001001003",
+                    "menuEname": "logManager",
+                    "menuCname": "日志管理",
+                    "leafFlag": 0,
+                    "menuLink": "",
+                    "menuLevel": 2,
+                    "children": [
+                        {
+                            "parentMenuCode": null,
+                            "menuCode": "001001003001",
+                            "menuEname": "syslog",
+                            "menuCname": "操作日志",
+                            "leafFlag": 0,
+                            "menuLink": "/syslog",
+                            "menuLevel": 3,
+                            "children": null
+                        },{
+                            "parentMenuCode": null,
+                            "menuCode": "001001003002",
+                            "menuEname": "invokeapilog",
+                            "menuCname": "接口日志",
+                            "leafFlag": 0,
+                            "menuLink": "/invokeapilog",
+                            "menuLevel": 3,
+                            "children": null
+                        }
+                    ]
+                },
+                {
+                    "parentMenuCode": null,
+                    "menuCode": "001001003",
+                    "menuEname": "codeManage",
+                    "menuCname": "代码管理",
+                    "leafFlag": 0,
+                    "menuLink": "",
+                    "menuLevel": 2,
+                    "children": [
+                        {
+                            "parentMenuCode": null,
+                            "menuCode": "001001003002",
+                            "menuEname": "sysGenerator",
+                            "menuCname": "代码生成",
+                            "leafFlag": 0,
+                            "menuLink": "/sysGenerator",
+                            "menuLevel": 3,
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
