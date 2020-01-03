@@ -1,5 +1,7 @@
 package com.zhm.controller;
 
+import com.zhm.annotation.SysLogEntity;
+import com.zhm.annotation.TokenFilter;
 import com.zhm.dto.Result;
 import com.zhm.entity.SysLog;
 import com.zhm.jpa.essential.domain.PageableFactory;
@@ -51,6 +53,7 @@ public class SysLogController {
     * @param
     * @return
     */
+    @TokenFilter//沒有与权限系统结合，需要过滤掉该方法
     @ApiOperation(value = "分页查询",notes = "分页查询",httpMethod = "GET")
     @RequestMapping(name = "分页查询", value = {""}, method = RequestMethod.GET)
     public Page<SysLog> pageForList(WebRequest request, Pageable pageable) {
@@ -69,6 +72,7 @@ public class SysLogController {
      * @param pageable
      * @return
      */
+    @TokenFilter//沒有与权限系统结合，需要过滤掉该方法
     @ApiOperation(value = "不分页查询",notes = "不分页查询",httpMethod = "GET")
     @RequestMapping(name = "不分页查询", value = {"/queryList"}, method = RequestMethod.GET)
     public Result queryForList(WebRequest request, Pageable pageable) {
@@ -90,6 +94,8 @@ public class SysLogController {
      * @param sysLog
      * @return
      */
+    @SysLogEntity(value = "新增日志")
+    @TokenFilter//沒有与权限系统结合，需要过滤掉该方法
     @ApiOperation(value = "新增",notes = "新增",httpMethod = "POST")
     @RequestMapping(name = "新增", value = {""}, method = RequestMethod.POST)
     public Result add(@RequestBody SysLog sysLog) throws Exception {
@@ -107,6 +113,7 @@ public class SysLogController {
      * @param sysLog
      * @return
      */
+    @TokenFilter//沒有与权限系统结合，需要过滤掉该方法
     @ApiOperation(value = "修改",notes = "修改",httpMethod = "PUT")
     @RequestMapping(name = "修改", value = {""}, method = RequestMethod.PUT)
     public Result update(@RequestBody SysLog sysLog) throws Exception {

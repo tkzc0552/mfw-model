@@ -1,6 +1,5 @@
 package com.zhm.controller;
 
-import com.zhm.annotation.TokenFilter;
 import com.zhm.dto.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/api/test")
 public class TestController {
-    @TokenFilter
     @ApiOperation(value = "测试能否返回(不用拦截的)",notes = "这是备注",httpMethod = "GET")
     @RequestMapping(value = "",method = RequestMethod.GET)
     public Result test(){

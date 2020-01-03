@@ -13,6 +13,7 @@ import invokeapilog from '../page/log/invokeapilog';
 import syslog from '../page/log/syslog';
 
 import sysGenerator from '../page/code/sysGenerator';
+import sysMenu from '../page/log/sysmenu';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -53,12 +54,6 @@ const router = new VueRouter({
                     path: '/syslog',
                     component: syslog,
                     meta: { title: '操作日志'}
-                },
-                {
-                    name: 'invokeapilog',
-                    path: '/invokeapilog',
-                    component: invokeapilog,
-                    meta: { title: '接口日志'}
                 }
             ]
         },{

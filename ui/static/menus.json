@@ -29,15 +29,6 @@
                             "menuLink": "/syslog",
                             "menuLevel": 3,
                             "children": null
-                        },{
-                            "parentMenuCode": null,
-                            "menuCode": "001001003002",
-                            "menuEname": "invokeapilog",
-                            "menuCname": "接口日志",
-                            "leafFlag": 0,
-                            "menuLink": "/invokeapilog",
-                            "menuLevel": 3,
-                            "children": null
                         }
                     ]
                 },
@@ -52,7 +43,7 @@
                     "children": [
                         {
                             "parentMenuCode": null,
-                            "menuCode": "001001003002",
+                            "menuCode": "001001003001",
                             "menuEname": "sysGenerator",
                             "menuCname": "代码生成",
                             "leafFlag": 0,
